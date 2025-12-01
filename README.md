@@ -80,12 +80,16 @@ This page focuses on:
 • Top countries with male advantage
 • Bottom countries with female advantage
 
+![](Global Education Access Dashboard.png.png)
+
 2. Deep Dive Dashboard
 This page looks at:
 • Wealth distribution comparisons
 • Region-specific inequalities
 • Country-level breakdowns
 • Education level patterns
+
+![](Welcome.png.png)
 
 These dashboards help highlight how completion rates change across different groups and regions.
 
