@@ -24,7 +24,7 @@ The dataset covers:
 * **Time Period:**
 
   * Year the data was recorded
-  * Education level (e.g., Primary)
+  * Education level (e.g., Primary, Lower secondary, and Upper secondary)
 
 ### **Purpose of the Dataset**
 
