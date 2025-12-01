@@ -33,7 +33,7 @@ This dataset was used to:
 * Analyze global and regional education inequality
 * Compare enrolment gaps between genders, locations, and income levels
 * Create the visuals shown in the Power BI dashboard
-* Provide insights to support SDG 4 — Quality Education
+* Provide insights to support SDG 4 - Quality Education
 
 ### **How to Use**
 
@@ -43,5 +43,3 @@ You can download the Excel file to:
 * Run your own data analysis
 * Apply machine learning or statistical models
 * Rebuild or improve the Power BI dashboard
-
-If you want it shorter or more formal, I can rewrite it.
