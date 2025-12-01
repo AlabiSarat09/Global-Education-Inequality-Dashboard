@@ -14,9 +14,9 @@ I used Python to clean and prepare the raw dataset, and Power BI to combine the 
 
 ## Dataset Description:
 The dataset contains completion rate records for different education levels:
-• Primary
-• Lower Secondary
-• Upper Secondary
+- Primary
+- Lower Secondary
+- Upper Secondary
 
 ## Each sheet includes information for multiple countries and variables like:
 • Gender (Male, Female)
@@ -80,7 +80,7 @@ This page focuses on:
 • Top countries with male advantage
 • Bottom countries with female advantage
 
-![](Global_Education_Access_Dashboard.png)
+![](Global_Education_Access_Dashboard.png.png)
 
 2. Deep Dive Dashboard:
 This page looks at:
@@ -89,7 +89,7 @@ This page looks at:
 • Country-level breakdowns
 • Education level patterns
 
-![](Deep_Dive_Dashboard.png)
+![](Deep_Dive_Dashboard.png.png)
 
 These dashboards help highlight how completion rates of education change across different groups and regions.
 
