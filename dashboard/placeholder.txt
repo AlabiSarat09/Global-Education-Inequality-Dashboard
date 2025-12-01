@@ -1,1 +1,1 @@
-Placeholder
+This folder contains the Power BI file used to design the Global Education Inequality Dashboard.
