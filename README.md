@@ -33,7 +33,7 @@ The steps were:
 1. Loading the dataset:
 I loaded all three sheets (“Primary”, “Lower secondary”, “Upper secondary”) into Jupyter Notebook.
 
-2. Removal of unnecessary columns:
+2. Removal of unnecessary columns: I had 6 missing columns across all the sheets
 I dropped fields such as:
 - Data source
 - Population data
@@ -47,7 +47,7 @@ Converted columns like Total, Female, Male, Rural, Urban, Poorest, Second, Middl
 - Removed rows where all the numeric values were missing
 - Filled missing wealth group values with the median
 - Kept only the valid rows for each sheet
-- Stopped the data entry after “Zimbabwe” to remove irrelevant entries
+- Stopped the data entry after “Zimbabwe” to remove irrelevant entries - I deleted 23 irrelevant entries
 
 5. Exporting of cleaned data:
 Exported all cleaned sheets into a new Excel file named:
@@ -80,7 +80,7 @@ This page focuses on:
 - Top countries with male advantage
 - Bottom countries with female advantage
 
-![](Global_Education_Access_Dashboard.png.png)
+![Global Education Access Dashboard](assets/powerbi_screenshots/Global_Education_Access_Dashboard.png)
 
 2. Deep Dive Dashboard:
 This page looks at:
@@ -89,7 +89,7 @@ This page looks at:
 - Country-level breakdowns
 - Education level patterns
 
-![](Deep_Dive_Dashboard.png.png)
+![Deep Dive Dashboard](assets/powerbi_screenshots/Deep_Dive_Dashboard.png)
 
 These dashboards help highlight how completion rates of education change across different groups and regions.
 
