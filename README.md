@@ -1,10 +1,14 @@
 # Global Education Access and Inequality Analysis (Power BI + Python)
 
+![Project_Introduction](assets/powerbi_screenshots/Project_Introduction.png)
+
 ## Overview
 This project examines completion rates across Primary, Lower Secondary, and Upper Secondary education levels.
 The goal is to identify gaps in education based on gender, socioeconomic status, region, and location, and to highlight patterns of inequality across countries.
 
 I used Python to clean and prepare the raw dataset, and Power BI to combine the cleaned sheets and build the dashboards.
+
+![Project_Outline](assets/powerbi_screenshots/Project_Outline.png)
 
 ## Tools Used:
 1. Python (Pandas, NumPy, Matplotlib, and Seaborn)
@@ -101,6 +105,8 @@ Some of the key patterns found include:
 - The richest groups show far higher completion rates than the poorest groups.
 - Least developed regions show the widest inequality gaps.
 - Some countries have strong female dominance in completion rate, while others show a strong male advantage.
+
+![Project_Summary](assets/powerbi_screenshots/Project_Summary.png)
 
 These insights reflect ongoing global inequality in access to education.
 
