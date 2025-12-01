@@ -19,12 +19,12 @@ The dataset contains completion rate records for different education levels:
 - Upper Secondary
 
 ## Each sheet includes information for multiple countries and variables like:
-• Gender (Male, Female)
-• Location (Urban, Rural)
-• Wealth groups (Poorest, Second, Middle, Fourth, Richest)
-• Development level
-• Time period
-• Total completion rate
+- Gender (Male, Female)
+- Location (Urban, Rural)
+- Wealth groups (Poorest, Second, Middle, Fourth, Richest)
+- Development level
+- Time period
+- Total completion rate
 
 ## Data Cleaning Process (Python):
 I used Python to clean each sheet separately before moving them into Power BI.
@@ -35,59 +35,59 @@ I loaded all three sheets (“Primary”, “Lower secondary”, “Upper second
 
 2. Removal of unnecessary columns:
 I dropped fields such as:
-• Data source
-• Population data
-• Blank/unnamed columns
+- Data source
+- Population data
+- Blank/unnamed columns
 
 3. Conversion to numeric columns:
 Converted columns like Total, Female, Male, Rural, Urban, Poorest, Second, Middle, Fourth, Richest, and Time period to numeric values.
 
 4. Handling of missing values:
-• Dropped rows where important columns had less than 5% missing values
-• Removed rows where all the numeric values were missing
-• Filled missing wealth group values with the median
-• Kept only the valid rows for each sheet
-• Stopped the data entry after “Zimbabwe” to remove irrelevant entries
+- Dropped rows where important columns had less than 5% missing values
+- Removed rows where all the numeric values were missing
+- Filled missing wealth group values with the median
+- Kept only the valid rows for each sheet
+- Stopped the data entry after “Zimbabwe” to remove irrelevant entries
 
 5. Exporting of cleaned data:
 Exported all cleaned sheets into a new Excel file named:
 Completion_rate_2022_cleaned.xlsx
 
 Each sheet was saved as:
-• Primary
-• Lower secondary
-• Upper secondary
+- Primary
+- Lower secondary
+- Upper secondary
 
 ## Power BI Work:
 After cleaning the dataset, I imported the three sheets into Power BI and created a model that allowed me to compare:
-• Key Dimensions
-• Gender
-• Wealth groups
-• Urban vs Rural
-• Development regions
-• Countries
-• Education level
+- Key Dimensions
+- Gender
+- Wealth groups
+- Urban vs Rural
+- Development regions
+- Countries
+- Education level
 
 ## Dashboards Created:
 I built two dashboards:
 
 1. Global Education Access Dashboard
 This page focuses on:
-• Gender gap
-• Urban and rural differences
-• Poorest vs richest completion rates
-• Regional inequality
-• Top countries with male advantage
-• Bottom countries with female advantage
+- Gender gap
+- Urban and rural differences
+- Poorest vs richest completion rates
+- Regional inequality
+- Top countries with male advantage
+- Bottom countries with female advantage
 
 ![](Global_Education_Access_Dashboard.png.png)
 
 2. Deep Dive Dashboard:
 This page looks at:
-• Wealth distribution comparisons
-• Region-specific inequalities
-• Country-level breakdowns
-• Education level patterns
+- Wealth distribution comparisons
+- Region-specific inequalities
+- Country-level breakdowns
+- Education level patterns
 
 ![](Deep_Dive_Dashboard.png.png)
 
@@ -96,20 +96,20 @@ These dashboards help highlight how completion rates of education change across 
 ## Insights from the Analysis:
 Some of the key patterns found include:
 
-• Males tend to have slightly higher completion rates in many countries.
-• Urban students complete school more than rural students.
-• The richest groups show far higher completion rates than the poorest groups.
-• Least developed regions show the widest inequality gaps.
-• Some countries have strong female dominance in completion rate, while others show a strong male advantage.
+- Males tend to have slightly higher completion rates in many countries.
+- Urban students complete school more than rural students.
+- The richest groups show far higher completion rates than the poorest groups.
+- Least developed regions show the widest inequality gaps.
+- Some countries have strong female dominance in completion rate, while others show a strong male advantage.
 
 These insights reflect ongoing global inequality in access to education.
 
 ## Files in This Repository:
-• Python script for data cleaning
-• Cleaned dataset (Excel)
-• Power BI file (.pbix)
-• Dashboard screenshots
-• README documentation
+- Python script for data cleaning
+- Cleaned dataset (Excel)
+- Power BI file (.pbix)
+- Dashboard screenshots
+- README documentation
 
 How to Use This Project
 
