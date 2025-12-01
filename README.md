@@ -80,7 +80,7 @@ This page focuses on:
 • Top countries with male advantage
 • Bottom countries with female advantage
 
-![](Global Education Access Dashboard.png.png)
+![](Global_Education_Access_Dashboard.png)
 
 2. Deep Dive Dashboard
 This page looks at:
@@ -89,7 +89,7 @@ This page looks at:
 • Country-level breakdowns
 • Education level patterns
 
-![](Welcome.png.png)
+![](Deep_Dive_Dashboard.png)
 
 These dashboards help highlight how completion rates change across different groups and regions.
 
