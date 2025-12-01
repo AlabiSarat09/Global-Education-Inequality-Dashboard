@@ -117,15 +117,15 @@ These insights reflect ongoing global inequality in access to education.
 - Dashboard screenshots
 - README documentation
 
-How to Use This Project
+## How to Use This Project:
 
-Download the cleaned dataset or the Power BI report.
+- Download the cleaned dataset or the Power BI report.
 
-Open the .pbix file in Power BI Desktop.
+- Open the .pbix file in Power BI Desktop.
 
-Use the filters (country, region, gender, level, year) to explore insights.
+- Use the filters (country, region, gender, level, year) to explore insights.
 
-Check the Python script to see the full cleaning process.
+- Check the Python script to see the full cleaning process.
 
 ## Conclusion:
 This project demonstrates how data cleaning and visualization can be used to understand global education gaps.
